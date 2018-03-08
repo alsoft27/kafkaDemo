@@ -1,4 +1,4 @@
-package com.alsoft27.demobootstrap;
+package com.alsoft27.kafkademo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

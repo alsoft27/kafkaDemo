@@ -1,4 +1,4 @@
-package com.alsoft27.demobootstrap;
+package com.alsoft27.kafkademo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
