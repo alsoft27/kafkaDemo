@@ -14,7 +14,7 @@ import com.alsoft27.kafkademo.storage.MessageStorage;
 @RequestMapping(value = "/kafka")
 public class KafkaController {
 
-	@Value("${spring.kafka.topic.kafkaData}")
+	@Value("${kafka.cloudkarafka.topic}")
 	private String KAFKA_TOPIC;
 
 	@Autowired
