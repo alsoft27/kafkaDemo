@@ -32,8 +32,6 @@ public class KafkaController {
 	@GetMapping(value = "/consumer")
 	public String getAllRecievedMessage() {
 		String messages = storage.toString();
-		storage.clear();
-
 		return messages;
 	}
 

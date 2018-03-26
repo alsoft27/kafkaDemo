@@ -6,9 +6,9 @@ spring:
       auto-offset-reset: earliest
 kafka:
   brokers:
-    url: ark-01.srvs.cloudkafka.com:9094,ark-02.srvs.cloudkafka.com:9094,ark-02.srvs.cloudkafka.com:9094   
+    url: XXX   
   cloudkarafka:
-    topic: tbhv6fbd-KAFKA_TOPIC
-    username:  tbhv6fbd
-    password:  -9Sw3QOgYju91FcbBUkVfWGfmeWV8tcs
+    topic: XXXX
+    username:  XXX
+    password:  XXX
     

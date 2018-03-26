@@ -48,8 +48,4 @@ public class ProducerKafkaConfig {
 		return new KafkaTemplate<>(producerFactory());
 	}
 
-	@Bean
-	public Producer producer() {
-		return new Producer();
-	}
 }
