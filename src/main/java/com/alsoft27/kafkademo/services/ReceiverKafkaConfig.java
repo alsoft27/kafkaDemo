@@ -12,7 +12,6 @@ import org.springframework.kafka.annotation.EnableKafka;
 import org.springframework.kafka.config.ConcurrentKafkaListenerContainerFactory;
 import org.springframework.kafka.core.ConsumerFactory;
 import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
-import org.springframework.kafka.support.serializer.JsonDeserializer;
 
 @Configuration
 @EnableKafka
@@ -45,8 +44,7 @@ public class ReceiverKafkaConfig {
 
 	@Bean
 	public ConsumerFactory<String, String> consumerFactory() {
-		return new DefaultKafkaConsumerFactory<>(consumerConfigs(), new StringDeserializer(),
-				new JsonDeserializer<>(String.class));
+		return new DefaultKafkaConsumerFactory<>(consumerConfigs());
 	}
 
 	@Bean
